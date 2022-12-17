@@ -111,7 +111,7 @@ while True:
             elif index==4:
                 pyautogui.keyDown("alt")
                 pyautogui.press("tab")
-                # pyautogui.press("tab")
+                pyautogui.press("tab")
                 pyautogui.keyUp("alt")
                 time.sleep(3)
 
